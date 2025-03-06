@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #slider-container {
+            width: 600px;
+            margin: 50px auto;
+            position: relative;
+        }
+        #slider-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .nav-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .prev-btn, .next-btn {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .prev-btn:hover, .next-btn:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>**IMAGE SLIDER**</h1>
+
+    <div id="slider-container">
+        <img id="slider-image" src="" alt="Image Slider">
+        <div class="nav-buttons">
+            <button class="prev-btn" onclick="previousImage()">&#10094; Previous</button>
+            <button class="next-btn" onclick="nextImage()">Next &#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
