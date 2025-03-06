@@ -28,8 +28,9 @@ Create a method displayDetails() to print employee details.
 Write a main method to: 
 a. Create at least 3 Employee objects. 
 b. Store them in a list. 
-c. Display their details. 
-d. Create a simple to-do list using JavaScript and the DOM. 
+c. Display their details.
+
+4. Create a simple to-do list using JavaScript and the DOM. 
 • Allow users to add new tasks. 
 • Display tasks in a list. 
 • Provide a button to remove each task. 
